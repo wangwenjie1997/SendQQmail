@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>mail</title>
+</head>
+<body>
+<form name="sendQQMail" method="post" action="#" th:action="@{/sendQQMail}">
+    发送者：<input type="text" name="sender"><br/>
+    接收者：<input type="text" name="receiver"><br/>
+    标题：<input type="text" name="title"><br/>
+    内容：<input type="text" name="text"><br/>
+    <input type="submit">
+</form>
+</body>
+</html>
